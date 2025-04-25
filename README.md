@@ -1,5 +1,5 @@
 # Instagram-Clone-Profile
-Visit Site:
+Visit Site: https://jahidajinar.github.io/Instagram-Clone-Profile/
 
 This project is a responsive Instagram profile clone built using only HTML, CSS, and JavaScript, with a clean dark mode/light mode switch. It replicates the look and feel of an actual Instagram profile and allows the user to view, edit, and personalize their profile just like on a real app.
 
