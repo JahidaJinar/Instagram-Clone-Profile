@@ -1,0 +1,35 @@
+<!-- edit-profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.jpg">
+  </head>
+  <body>
+    <div class="edit-container">
+      <h2>Edit Profile</h2>
+      <button class="toggle-theme" onclick="toggleTheme()">
+        🌗
+      </button>
+
+      <label>Change Profile Picture:</label>
+      <input type="file" id="profilePicInput" /><br /><br />
+
+      <label>Name:</label>
+      <input type="text" id="name" /><br /><br />
+
+      <label>Username:</label>
+      <input type="text" id="username" /><br /><br />
+
+      <label>Bio:</label>
+      <textarea id="bio"></textarea><br /><br />
+
+      <button onclick="saveChanges()">Save</button>
+      <button onclick="window.location.href='index.html'">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

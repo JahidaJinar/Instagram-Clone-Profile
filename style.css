@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-container,
+.edit-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile-info img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background: #555;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  background: #222;
+  color: white;
+  border: 1px solid #444;
+}
+
+.toggle-theme {
+  margin-bottom: 15px;
+  background: #444;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.toggle-theme:hover {
+  background: #666;
+}
+
+body.light-theme {
+  background: #fff;
+  color: #000;
+}
+
+body.light-theme input,
+body.light-theme textarea {
+  background: #f2f2f2;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+body.light-theme button {
+  background: #e0e0e0;
+  color: #000;
+}
+
+body.light-theme .toggle-theme {
+  background: #ddd;
+  color: #000;
+}
+

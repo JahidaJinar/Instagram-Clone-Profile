@@ -1,0 +1,47 @@
+<!-- profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Instagram Clone Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.jpg">
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="top-bar">
+        <span class="username" id="display-username">@jahida.jinar</span>
+      </div>
+      <button class="toggle-theme" onclick="toggleTheme()">🌗</button>
+
+      <div class="profile-info">
+        <img src="default-profile.jpg" alt="Profile" id="profile-pic" />
+        <div>
+          <h2 id="display-name">Jahida Khanom Jinar</h2>
+          <p id="display-bio">Go where the energy flows...🌸</p>
+        </div>
+      </div>
+
+      <div class="stats">
+        <span><b>83</b> posts</span>
+        <span><b>31</b> followers</span>
+        <span><b>80</b> following</span>
+      </div>
+
+      <button onclick="window.location.href='edit-profile.html'">
+        Edit profile
+      </button>
+
+      <div class="gallery">
+        <img src="img1.jpg" />
+        <img src="img2.jpg" />
+        <img src="img3.jpg" />
+        <img src="img4.jpg" />
+        <img src="img5.jpg" />
+        <img src="img6.jpg" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
